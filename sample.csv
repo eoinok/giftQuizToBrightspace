@@ -1,0 +1,322 @@
+NewQuestion,MC
+NewQuestion,MC
+Title,q001
+QuestionText,"If a variable has never been assigned a value then the variable is ______________"
+Option,100,not set
+Option,0,set to null
+Option,0,set to zero
+Option,0,set to empty string
+Option,0,None of these
+NewQuestion,MC
+Title,q002
+QuestionText,"The length of a String is returned by the _____________"
+Option,0,str() function
+Option,0,len() function
+Option,100,strlen() fuction
+Option,0,length() function
+Option,0,None of these
+NewQuestion,MC
+Title,q003
+QuestionText,"If a checkbox called cb is not checked on a form which uses the POST action then $_POST['cb'] will evaluate to be _______________"
+Option,100,An undefined index error
+Option,0,A null value
+Option,0,A value of false
+Option,0,An empty string
+Option,0,None of these
+NewQuestion,MC
+Title,q004
+QuestionText,"str_pos("This is a test string","test"); will evaluate to ______________"
+Option,100,10
+Option,0,11
+Option,0,7
+Option,0,4
+Option,0,9
+NewQuestion,MC
+Title,q005
+QuestionText,"intval("1")+2*intval("3"); will evaluate to ______________"
+Option,0,type mismatch error
+Option,0,6
+Option,100,7
+Option,0,9
+Option,0,8
+NewQuestion,MC
+Title,q006
+QuestionText,"(__LINE__), (__FILE__), (__DIR__), (__FUNCTION__) are all types of ______________"
+Option,100,PHP Magic constants
+Option,0,PHP Magic methods
+Option,0,PHP Constants
+Option,0,PHP Keywords
+Option,0,None of these
+NewQuestion,MC
+Title,q007
+QuestionText,"The concatenation operator in PHP is:"
+Option,0,+
+Option,0,&
+Option,0,&&
+Option,100,.
+Option,0,^
+NewQuestion,MC
+Title,q008
+QuestionText,"If $x contains "Hello, " and $y contains "world" and a line of code containing $x.=$y; is executed then "Hello, World" will be _______________"
+Option,0,output to the screen
+Option,100,contained in $x
+Option,0,contained in $y
+Option,0,contained in $xy
+Option,0,none of these
+NewQuestion,MC
+Title,q009
+QuestionText,"If $x contains 1 and $y contains 1 then $x xor $y evaluates to be _____________"
+Option,0,0
+Option,0,1
+Option,0,True
+Option,0,Null
+Option,100,False
+NewQuestion,MC
+Title,q010
+QuestionText,"If a variable is first used inside a function then it can be seen and read ______________"
+Option,100,inside the function only
+Option,0,outside the function only
+Option,0,inside and outside the funciton
+Option,0,throughout the PHP Page
+Option,0,none of these
+NewQuestion,MC
+Title,q011
+QuestionText,"When something needs to be repeated a predetermined number of times the loop used should be ______________"
+Option,100,for
+Option,0,foreach
+Option,0,while
+Option,0,do-while
+Option,0,None of these
+NewQuestion,MC
+Title,q012
+QuestionText,"In order to loop through each element in an array the best loop to use would be _______________"
+Option,0,for
+Option,100,foreach
+Option,0,while
+Option,0,do-while
+Option,0,None of these
+NewQuestion,MC
+Title,q013
+QuestionText,"When a loop needs to execute at least once the loop to use would be _______________"
+Option,0,for
+Option,0,foreach
+Option,0,while
+Option,100,do-while
+Option,0,None of these
+NewQuestion,MC
+Title,q014
+QuestionText,"An array where named keys are use to as an index to the array is called _______________"
+Option,100,An associative array
+Option,0,An indexed array
+Option,0,A $_GET array
+Option,0,A two-dimenional array
+Option,0,None of these
+NewQuestion,MC
+Title,q015
+QuestionText,"$_GET and $_POST are examples of _______________"
+Option,100,An associative array
+Option,0,An indexed array
+Option,0,Dynamic variables
+Option,0,Two-dimenional arrays
+Option,0,None of these
+NewQuestion,MC
+Title,q016
+QuestionText,"Egyptian Brackets are a nickname for _______________"
+Option,100,Kernighan and Richie (K&R) Style brackets
+Option,0,Allman style brackets
+Option,0,GNU Style brakcets
+Option,0,Hortsman style brackets
+Option,0,None of these
+NewQuestion,MC
+Title,q017
+QuestionText,"The PSR-2 Programming Standard for PHP requires the use of _______________ for if statements and loops"
+Option,0,A mix of K&R and Allman style brackets
+Option,100,Exclusively K&R style brackets
+Option,0,Exclusively Allman style brackets
+Option,0,Either Egyptian brackets or Allman brackets
+Option,0,None of these
+NewQuestion,MC
+Title,q018
+QuestionText,"According to the PSR-1 standard Class names should be in   _______________"
+Option,100,Studly Capitals
+Option,0,All Capitals
+Option,0,Camel Case
+Option,0,First Letter Captials
+Option,0,All Lower Case
+NewQuestion,MC
+Title,q019
+QuestionText,"_____________ is described as the sharing of attributes and methods among classes"
+Option,0,Encapsulation
+Option,0,Instantiation
+Option,0,Polymorphism
+Option,0,Extension
+Option,100,Inheritance
+NewQuestion,MC
+Title,q020
+QuestionText,"In PHP, methods of a Class that start with a double underscore are referred to as  _________ methods"
+Option,0,Hidden
+Option,0,Control
+Option,0,Dynamic
+Option,100,Magic
+Option,0,Static
+NewQuestion,MC
+Title,q021
+QuestionText,"The "arrow" operator which is identified using -> in PHP is also referred to as the _____________"
+Option,0,Determinant Operator
+Option,100,Object Operator
+Option,0,Implementor Operator
+Option,0,Attribute Operator
+Option,0,Class Operator
+NewQuestion,MC
+Title,q022
+QuestionText,"Which of the following terms can be best used to replace the Inheritance Arrow Operator when describing the Inheritance relationship between two classes ____________"
+Option,100,Is a type of
+Option,0,Is determined by
+Option,0,Is a subset of
+Option,0,Is a superset of
+Option,0,Is part of
+NewQuestion,MC
+Title,q023
+QuestionText,"When using a loop to generate a dropdown list of options from an array of variables, the &lt;option&gt; tag needs to be output _____________"
+Option,0,Before the start of the loop
+Option,0,After the end of the loop
+Option,0,Outside the loop
+Option,100,Inside the loop
+Option,0,None of these
+NewQuestion,MC
+Title,q024
+QuestionText,"The value which is passed by a select tag when a form is submitted is _____________"
+Option,100,The value that is contained within the value attribute for that option
+Option,0,The value that displayed to the user
+Option,0,The value that is contained in the name attribute for the select tag
+Option,0,The value that is between the &lt;option&gt; &lt;/option&gt; tags
+Option,0,None of these
+NewQuestion,MC
+Title,q025
+QuestionText,"A little bit of PHP code which can be included inside a file which is mostly HTML is referred to as a _____________"
+Option,0,Block
+Option,0,Function
+Option,0,Class
+Option,100,Snippet
+Option,0,None of these
+NewQuestion,MC
+Title,q026
+QuestionText,"If a file is mostly HTML with a little bit of PHP then, in order for the file to work properly, the file extension should be ____________"
+Option,0,.HTML
+Option,100,.PHP
+Option,0,Either .HTML or .PHP
+Option,0,.PHPML
+Option,0,None of these
+NewQuestion,MC
+Title,q027
+QuestionText,"The include_once command ensures that _____________"
+Option,100,if a script is executed again then the output/result of the previous "include_once" command will be used on the subsquent execution of the script
+Option,0,if a script is executed again the script that is pulled-in by the include_once command will be executed again
+Option,0,if a script is executed again the include_once command will be ignored
+Option,0,if a script is executed again an error will be generated
+Option,0,none of these
+NewQuestion,MC
+Title,q028
+QuestionText,"Inheritance is implemented in php using ______________"
+Option,100,extends
+Option,0,->
+Option,0,::
+Option,0,parent
+Option,0,typeof
+NewQuestion,MC
+Title,q029
+QuestionText,"The correct syntax used to assign a value to a class variable using the $this pseudo variable is _______________"
+Option,0,$this->$myvar=5;
+Option,0,this->myvar=5;
+Option,0,this->$myvar=5;
+Option,100,$this->myvar=5;
+Option,0,$this.myvar
+Option,0,5;
+NewQuestion,MC
+Title,q030
+QuestionText,"Another term for getter methods is ______________"
+Option,100,Accessor methods
+Option,0,Mutator methods
+Option,0,Encapsulated methods
+Option,0,Public methods
+Option,0,Returning methods
+NewQuestion,MC
+Title,q031
+QuestionText,"Three examples of magic methods in PHP are ______________"
+Option,0,__constructor(), __destructor() and __toString()
+Option,0,constructor methods, getter methods and setter methods
+Option,100,__construct(), __destruct() and __toString()
+Option,0,getter methods, setter methods, toString methods
+Option,0,__toString(), __construct(), __destroy()
+NewQuestion,MC
+Title,q032
+QuestionText,"It is necessary to destroy objects because _______________"
+Option,100,Unused objects use up memory which could be released back to the operating system
+Option,0,Objects need to be destroyed in order to that the values inside them can be reused
+Option,0,Unused objects represent a risk to the security of the system
+Option,0,Before a new object can be instantiated from a class the old object must first be destroyed
+Option,0,Unused objects become obsolete after a period of time
+NewQuestion,MC
+Title,q033
+QuestionText,"Encapsulation in OOP is implemented by ______________"
+Option,100,Making the methods public and the attributes private
+Option,0,Making the variables public and the attributes private
+Option,0,Making the variables private and the atrributes public
+Option,0,Making the attributes public and the methods private
+Option,0,Making both the attributes and methods private
+NewQuestion,MC
+Title,q034
+QuestionText,"The point of Encapsulation and Inheritance in OOP is ________________"
+Option,0,Reusability
+Option,0,Ensuring no other programmer can change the way an object works
+Option,0,Ultimately - writing less code
+Option,0,Sharing attributes and methods among classes
+Option,100,All of these
+NewQuestion,MC
+Title,q035
+QuestionText,"If a programmer fails to destroy a session then ______________"
+Option,100,The server could potentially crash
+Option,0,The session will eventually timeout
+Option,0,Nothing will happen
+Option,0,The user will receive a session not destroyed error message
+Option,0,The session will time out after one hour by default
+NewQuestion,MC
+Title,q036
+QuestionText,"Normal PHP Variables which are declared on a PHP page can ______________"
+Option,0,be accessed from other pages
+Option,100,Never be accessed from other pages
+Option,0,be accessed on other pages through use of the global() function
+Option,0,be accessed on other pages if they are declared outside a function or class
+Option,0,be accessed from other pages through the use of a Magic method
+NewQuestion,MC
+Title,q037
+QuestionText,"To use a session, the programmer  _____________"
+Option,100,must use the start_session(); command on every page where session variables are accessed
+Option,0,must use the start_session(); only when first initialising the session
+Option,0,must use the start_session(); command on every page in the site whether accessing session variables or not
+Option,0,must use the start_session(); command after every time a session has been destroyed
+Option,0,does not necessarily have to use the start_session(); command
+NewQuestion,MC
+Title,q038
+QuestionText,"The time(); function returns ______________"
+Option,100,The total number of seconds since 1/1/1970
+Option,0,The current time
+Option,0,The time the session was started
+Option,0,The amount of seconds since the session was started
+Option,0,None of these
+NewQuestion,MC
+Title,q039
+QuestionText,"The browser stores the session id (token) in _____________"
+Option,0,The browser cache
+Option,100,A cookie
+Option,0,A session variable
+Option,0,A php variable
+Option,0,A file on the server
+NewQuestion,MC
+Title,q040
+QuestionText,"If a Program tries to verify the time a session was last accessed by accessing the session variable which stores the last accessed time but the page has never before been accessed and therefore the session has not been started then ______________"
+Option,100,An undefined index error may occur
+Option,0,There is no problem as the session has never been accessed
+Option,0,The session will automatically be started
+Option,0,The session will automatically timeout
+Option,0,The Server will crash
